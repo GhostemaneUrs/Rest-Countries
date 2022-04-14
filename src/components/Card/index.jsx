@@ -25,7 +25,7 @@ export const index = ({ country }) => {
               Region: {""}
               <span className="normal-case font-normal">{country.region}</span>
             </p>
-            <p className="font-bold mb-1 text-gray-700 uppercase">
+            <p className="font-bold mb-1 text-gray-700 uppercase text-overflow">
               Capital: {""}
               <span className="normal-case font-normal">{country.capital}</span>
             </p>
