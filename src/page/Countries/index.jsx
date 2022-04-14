@@ -69,7 +69,7 @@ const index = () => {
           <div className="scroll">
             <div className="container grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 m-auto p-4 sm:p-0">
               {countries.map((country, index) => (
-                <Link to={{ pathname: "details", state: country }} key={index}>
+                <Link to={"/details"} state={{ country: country }} key={index}>
                   <Card country={country} />
                 </Link>
               ))}
