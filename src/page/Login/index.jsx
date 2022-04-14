@@ -22,7 +22,7 @@ const index = () => {
     }
   };
   return (
-    <div className="container h-screen m-auto flex justify-center items-center gap-10">
+    <div className="container h-screen m-auto flex justify-center p-4 sm:p-0 items-center gap-10">
       <div className="lg:w-2/5 hidden lg:block">
         <img src={welcome} alt="welcome-img" />
       </div>
